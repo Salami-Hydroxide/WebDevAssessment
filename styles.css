@@ -1,0 +1,314 @@
+body {
+    background-color: #FAEDCD;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #7F5539;
+}
+
+footer {
+    background-color: #7F5539;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: flex-end;
+}
+
+.main-nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+.main-nav a {
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+}
+
+.main-title {
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.home-banner {
+    background-color: #D4A373;
+    min-height: 71vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("BigfootVSNessie.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-content {
+    margin: 2em 12em;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.LeftFootprints {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.RightFootprints {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.card {
+    padding: 1em;
+    margin: 1em;
+}
+
+.card1 {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.card2 {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal
+}
+
+.card3 {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal
+}
+
+.suggestions {
+    display: flex;
+    align-items: center;
+    padding-left: 2em
+}
+
+.suggestions h1 {
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+}
+
+.battles {
+    display: flex;
+    align-items: center;
+    padding-left: 7.5em
+}
+
+.battles h1 {
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    padding-left: 3em
+}
+
+.information h1 {
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+}
+
+.main-footer {
+    color: #7F5539;
+    background-color: #7F5539;
+    margin-top: 20em;
+    padding: 1em;
+}
+
+.social-links {
+    color: #f8f5f9;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a :hover {
+    color: #E1CFAF;
+}
+
+.social-links a {
+    color: #D4A373;
+    font-size: 30px;
+    padding: 10px;
+    gap: 20px
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-family: "National Park", sans-serif;
+    margin: 0px;
+    padding: 10px
+}
+
+.trees {
+    margin-top: 5em;
+}
+
+@media (max-width: 768px) {
+    .home-content {
+        margin: 2em 1em;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .suggestions {
+        padding-left: 1em;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .battles {
+        padding-left: 1em;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .information {
+        padding-left: 1em;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Past Battles Page Styles */
+.PastTitle {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal
+}
+
+.battletitle {
+    padding-left: 40%;
+}
+
+.container1 {
+    border-bottom: solid 3px #000000;
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.gallery-item {
+    width: 350px;
+    margin: 5px;
+    text-align: center;
+}
+
+.desc {
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Carattere', cursive;
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+}
+
+.desc2 {
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Areial', cursive;
+    color: #7F5539;
+}
+
+.gallery-item2 {
+    width: 350px;
+    margin: 5px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal
+}
+
+.trees2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.battle-footer {
+    color: #7F5539;
+    background-color: #7F5539;
+    padding: 1em;
+}
+
+/* About Page Stytles */
+.sources {
+    padding: 15px;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+}
+
+.sources2 {
+    font-size: small;
+    font-family: "National Park", sans-serif;
+    font-weight: 300;
+    font-style: normal
+}
