@@ -312,3 +312,45 @@ footer {
     font-weight: 300;
     font-style: normal
 }
+
+/* Cryptid Information Page */
+.InfoTitle {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal
+}
+
+.info-main-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info-minitile {
+    display: flex;
+    padding-left: 13em;
+    font-size: 25px;
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+}
+
+.LeftFootprints2 {
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+}
+
+.RightFootprints2 {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+}
