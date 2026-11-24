@@ -334,13 +334,18 @@ footer {
 
 .info-minitile {
     display: flex;
-    padding-left: 13em;
+    justify-content: center;
     font-size: 25px;
     color: #7F5539;
     font-family: "National Park", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal
+}
+
+.infogallery {
+    display: flex;
+    justify-content: column;
 }
 
 .LeftFootprints2 {
