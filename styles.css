@@ -371,3 +371,36 @@ footer {
     background-color: #7F5539;
     padding: 1em;
 }
+
+/* Rankings Page Stytles */
+.RankingsTitle {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal
+}
+
+
+
+
+
+
+
+
+/* Viewer Suggestions Page Stytles */
+.ViewerTitle {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal
+}
