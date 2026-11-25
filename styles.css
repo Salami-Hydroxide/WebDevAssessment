@@ -359,3 +359,15 @@ footer {
     float: right;
     justify-content: flex-end;
 }
+
+.trees3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.info-footer {
+    color: #7F5539;
+    background-color: #7F5539;
+    padding: 1em;
+}
