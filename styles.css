@@ -365,12 +365,16 @@ footer {
     display: flex;
     float: left;
     justify-content: flex-start;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .RightFootprints2 {
     display: flex;
     float: right;
     justify-content: flex-end;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .trees3 {
@@ -398,7 +402,16 @@ footer {
     font-style: normal
 }
 
-
+.rankings-minitile {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+}
 
 
 
