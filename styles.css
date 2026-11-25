@@ -248,6 +248,12 @@ footer {
 
 }
 
+.battles-main-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
