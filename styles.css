@@ -430,3 +430,23 @@ footer {
     font-weight: 800;
     font-style: normal
 }
+
+.viewer-minitile {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #7F5539;
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal
+}
+
+.viewergallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 10px;
+    padding-right: 50px;
+}
