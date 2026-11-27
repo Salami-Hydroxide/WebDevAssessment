@@ -452,9 +452,8 @@ footer {
     padding-right: 50px;
 }
 
-.suggestions {
+.suggestions-stuff {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     color: #7F5539;
     font-family: "National Park", sans-serif;
